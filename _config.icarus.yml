@@ -199,47 +199,38 @@ donates:
         type: buymeacoffee
         # URL to the "Buy me a coffee" page
         url: ''
-    # Patreon donate button configurations
-    -
-        type: patreon
-        # URL to the Patreon page
-        url: ''
-    # Paypal donate button configurations
-    -
-        type: paypal
-        # Paypal business ID or email address
-        business: '18023047786'
-        # Currency code
-        currency_code: RMB
     # Wechat donate button configurations
     -
         type: wechat
         # Wechat qrcode image URL
         qrcode: ''
-# Share plugin configurations
+# Share plugin configurations #共享插件配置
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
     type: sharethis
     # URL to the ShareThis share plugin script
     install_url: 'https://ppoffice.github.io/hexo-theme-icarus'
-# Sidebar configurations.
+# Sidebar configurations. 
 # Please be noted that a sidebar is only visible when it has at least one widget
+#侧边栏配置。
+#请注意，侧边栏只有在至少有一个小部件时才可见
 sidebar:
-    # Left sidebar configurations
+    # Left sidebar configurations #左侧边栏配置
     left:
-        # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
-    # Right sidebar configurations
+        # Whether the sidebar sticks to the top when page scrolls #页面滚动时侧边栏是否粘在顶部
+        sticky: false
+    # Right sidebar configurations # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
-# Sidebar widget configurations
+        sticky: true
+# Sidebar widget configurations #侧边栏小部件配置
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
-    # Profile widget configurations
+    # Profile widget configurations #配置文件小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        #小部件应该放在哪里，左侧边栏还是右侧边栏
+        position: right
         type: profile
         # Author name
         author: colin-dong
@@ -260,10 +251,10 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: https://github.com/colin-d-h
-    # Table of contents widget configurations
+    # Table of contents widget configurations #目录小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
@@ -271,7 +262,7 @@ widgets:
         collapsed: true
         # Maximum level of headings to show (1-6)
         depth: 3
-    # Recommendation links widget configurations
+    # Recommendation links widget configurations #推荐链接小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -280,22 +271,22 @@ widgets:
         links:
             Hexo: https://hexo.io
             Bulma: https://bulma.io
-    # Categories widget configurations
+    # Categories widget configurations #类别小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: categories
-    # Recent posts widget configurations
+    # Recent posts widget configurations #最近的帖子小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: recent_posts
-    # Archives widget configurations
+    # Archives widget configurations #存档小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: archives
-    # Tags widget configurations
+    # Tags widget configurations #标签小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -306,7 +297,7 @@ widgets:
         amount: 
         # Whether to show tags count, i.e. number of posts in the tag.
         show_count: true
-    # Google FeedBurner email subscription widget configurations
+    # Google FeedBurner email subscription widget configurations 电子邮件订阅小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -315,7 +306,7 @@ widgets:
         description: 
         # Feedburner ID
         feedburner_id: ''
-    # Google AdSense unit configurations  谷歌广告感知单元配置
+    # Google AdSense unit configurations  
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
     #     position: left
@@ -324,7 +315,8 @@ widgets:
     #     client_id: ''
     #     # AdSense AD unit ID
     #     slot_id: ''
-    # Follow.it email subscription widget configurations
+
+    # Follow.it email subscription widget configurations 电子邮件订阅小部件配置
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
