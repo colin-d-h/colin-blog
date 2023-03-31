@@ -2,13 +2,13 @@
 version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
-# Path or URL to the website's logo
-logo: /img/logo.svg
-# Page metadata configurations
+# Path or URL to the website's logo #网站徽标的路径或 URL
+logo: ../img/avatar/colin-high-resolution-logo-color-on-transparent-background.svg
+# Page metadata configurations #页面元数据配置
 head:
-    # URL or path to the website's icon
-    favicon: /img/favicon.svg
-    # Web application manifests configuration
+    # URL or path to the website's icon #网站图标的 URL 或路径
+    favicon: ../img/avatar/colin-website-favicon-color.png
+    # Web application manifests configuration #Web 应用程序清单配置
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
@@ -327,7 +327,7 @@ widgets:
         action_url: ''
         # Feed claiming verification code
         verification_code: ''
-# Plugin configurations
+#   
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
     # Enable page startup animations
@@ -346,7 +346,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
